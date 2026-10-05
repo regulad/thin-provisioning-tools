@@ -55,6 +55,7 @@ TOOLS:=\
 	thin_repair \
 	thin_restore \
 	thin_rmap \
+	thin_shrink \
 	thin_trim
 
 MANPAGES:=$(patsubst %,man8/%.8,$(TOOLS))
